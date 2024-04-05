@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" modified="2024-04-02T18:30:00.147Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="erv18hww4t0j5D_m05cT" version="24.2.1" type="device">
+  <diagram name="Страница — 1" id="GhDr2dGqzxno__dlS03G">
+    <mxGraphModel dx="4032" dy="1643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4RSTQA62EWs_jjjkyT1Q-1" value="Управление бронированием и посадкой" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-710" y="50" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4RSTQA62EWs_jjjkyT1Q-2" value="Ведение базы данных клиентов" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-450" y="50" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4RSTQA62EWs_jjjkyT1Q-3" value="Обработка заказов и меню" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-200" y="50" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4RSTQA62EWs_jjjkyT1Q-4" value="Учёт товарных запасов и заказы поставщикам" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="50" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4RSTQA62EWs_jjjkyT1Q-5" value="Финансовый учёт" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="50" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4RSTQA62EWs_jjjkyT1Q-6" value="Аналитика и отчётность" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="50" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4RSTQA62EWs_jjjkyT1Q-7" value="возможность создания, отмены и изменения бронирования столов;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;автоматизированное распределение посетителей по залам и столам;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;учёт времени прибытия и ухода посетителей.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-830" y="150" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4RSTQA62EWs_jjjkyT1Q-8" value="хранение информации о посетителях, включая контактные данные." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-500" y="170" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4RSTQA62EWs_jjjkyT1Q-9" value="создание, изменение и отмена заказов со стороны клиентов и персонала;&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;управление меню, включая добавление, удаление и изменение блюд и напитков;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;учёт специальных запросов и требований клиентов к блюдам.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-310" y="140" width="220" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4RSTQA62EWs_jjjkyT1Q-10" value="отслеживание остатков товаров на складе;&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;автоматическое формирование заказов поставщикам на основе уровня запасов и прогнозов спроса.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-60" y="150" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4RSTQA62EWs_jjjkyT1Q-11" value="ведение учёта выручки и расходов." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="270" y="160" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4RSTQA62EWs_jjjkyT1Q-12" value="предоставление отчётов о посещаемости, продажах, популярности блюд и напитков." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="460" y="150" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4RSTQA62EWs_jjjkyT1Q-13" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="4RSTQA62EWs_jjjkyT1Q-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-460" y="250" as="sourcePoint" />
+            <mxPoint x="-600" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyieO6681AxdRDc5fQxu-1" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4RSTQA62EWs_jjjkyT1Q-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-340.62" y="110" as="sourcePoint" />
+            <mxPoint x="-340" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyieO6681AxdRDc5fQxu-2" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90.00999999999999" y="110" as="sourcePoint" />
+            <mxPoint x="-90" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyieO6681AxdRDc5fQxu-3" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4RSTQA62EWs_jjjkyT1Q-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="159.99" y="120" as="sourcePoint" />
+            <mxPoint x="159" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyieO6681AxdRDc5fQxu-4" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="409.8600000000001" y="110" as="sourcePoint" />
+            <mxPoint x="409.23" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyieO6681AxdRDc5fQxu-6" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="649.8600000000001" y="110" as="sourcePoint" />
+            <mxPoint x="649.23" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
