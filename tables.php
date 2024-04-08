@@ -53,10 +53,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 while ($row = $tables->fetch_assoc()) {
                     ?>
                     <div class="card <?= $row['status'] ?>" title="Открыть"
-                         onclick="openModal('editTable', {'editTable_table_id': '<?= $row['table_id'] ?>', 'editTable_table_name': '<?= $row['table_name'] ?>'})">
+                         onclick="openModal('editTable', {'editTable_table_id': '<?= $row['table_id'] ?>', 'editTable_table_name': '<?= $row['table_name'] ?>', 'editTable_capacity': '<?= $row['capacity'] ?>'})">
                         <div class="description">
-                            <label>ID:</label>
-                            <div class="table-id"><?= $row['table_id'] ?></div>
                             <label>Номер:</label>
                             <div class="table-name"><?= $row['table_name'] ?></div>
                             <label>Вместимость:</label>
@@ -80,12 +78,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <span class="close-modal" onclick="window.editTable.close()">&times;</span>
         <div class="title">Редактировать столик</div>
         <form method="post">
-            <label>ID:</label>
-            <input class="ro-input" type="text" name="table_id" id="editTable_table_id" readonly required>
+            <input class="ro-input" type="hidden" name="table_id" id="editTable_table_id" readonly required>
             <label>Номер:</label>
             <input type="text" name="table_name" id="editTable_table_name" required>
             <label>Новая вместимость:</label>
-            <input type="number" name="capacity" required>
+            <input type="number" name="capacity" id="editTable_capacity" required>
             <button type="submit" name="edit_table">Редактировать</button>
         </form>
     </dialog>
